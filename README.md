@@ -2,7 +2,7 @@
 
 **Deep Work Control** is a clean, focused, and highly customizable theme for [YASB](https://github.com/amnweb/yasb). Designed for productivity, it minimizes clutter by using grouped widgets while keeping essential system information accessible at a glance.
 
-**Why no taskbar?** If you're using a window manager with workspaces or just Windows Desktops then you really don't need a taskbar as all your navigation will be done with your keyboard. If you're not using a windows manager or workspaces/desktops then feel free to add a taskbar widget, details are described in the [YASB Wiki](https://github.com/amnweb/yasb/wiki).
+**Why no taskbar?** If you're using a window manager with workspaces or just Windows Desktops then you really don't need a taskbar as all your navigation will be done with your keyboard through your window manager and app launcher (for example Flow Launcher). If you're not using a windows manager or workspaces/desktops then feel free to add a taskbar widget, details are described in the [YASB Wiki](https://github.com/amnweb/yasb/wiki).
 
 ![Theme Screenshot](https://i.imgur.com/ibojVyx.png)
 
@@ -83,4 +83,4 @@ Feel free to remove this widget if not needed. It is included by default to help
 
 ## Recommended Setup
 
-To ensure a seamless experience, I highly recommend enabling **autostart** for both YASB and your chosen Window Manager (GlazeWM/Komorebi). This ensures your workflow environment is ready the moment you log in.
+To ensure a seamless experience, I highly recommend enabling **autostart** for both YASB and your chosen Window Manager (GlazeWM/Komorebi) and App Launcher (Flow Launcher). This ensures your workflow environment is ready the moment you log in.
