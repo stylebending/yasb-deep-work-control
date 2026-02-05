@@ -2,11 +2,10 @@
 
 **Deep Work Control** is a clean, focused, and highly customizable theme for [YASB](https://github.com/amnweb/yasb). Designed for productivity, it minimizes clutter by using grouped widgets while keeping essential system information accessible at a glance.
 
-**Why no taskbar?** If you're using a window manager with workspaces or just Windows Desktops then you really don't need a taskbar as all your navigation will be done with your keyboard through your window manager and app launcher (for example Flow Launcher). If you're not using a windows manager or workspaces/desktops then feel free to add a taskbar widget, details are described in the [YASB Wiki](https://github.com/amnweb/yasb/wiki).
+### Why no taskbar?
+If you're using a window manager with workspaces or just Windows Desktops then you really don't need a taskbar as all your navigation will be done with your keyboard through your window manager and app launcher (for example Flow Launcher). If you're not using a windows manager or workspaces/desktops then feel free to add a taskbar widget, details are described in the [YASB Wiki](https://github.com/amnweb/yasb/wiki).
 
 ![Theme Screenshot](https://i.imgur.com/ibojVyx.png)
-
----
 
 ## Background Transparency
 The theme is transparent by default to blend seamlessly with your wallpaper. To change this:
@@ -14,8 +13,6 @@ The theme is transparent by default to blend seamlessly with your wallpaper. To 
 2.  Locate the `.yasb-bar` class near the top of the file.
 3.  **Uncomment** the `background-color` property.
 4.  Edit the `var(--crust)` CSS variable to your preferred hex or RGB color.
-
----
 
 ## Widgets & Configuration
 
