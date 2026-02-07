@@ -5,7 +5,7 @@
 ### Why no taskbar?
 If you're using a window manager with workspaces or just Windows Desktops then you really don't need a taskbar as all your navigation will be done with your keyboard bindings through your window manager and app launcher (for example Flow Launcher/PowerToys). If you're not using a window manager or workspaces/desktops then feel free to add a taskbar widget, details are described in the [YASB Wiki](https://github.com/amnweb/yasb/wiki).
 
-![Theme Screenshot](https://i.imgur.com/ibojVyx.png)
+![Theme Screenshot](https://i.imgur.com/WdgaMto.png)
 
 ## Background Transparency
 The theme is transparent by default to blend seamlessly with your wallpaper. To change this:
