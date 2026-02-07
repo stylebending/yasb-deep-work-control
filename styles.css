@@ -130,7 +130,7 @@
 .grouped-widgets .container {
     background-color: var(--base);
     border-radius: 6px;
-    border: 1px solid var(--overlay1);
+    border: 1px solid #8dbcff;
 }
 .cpu-widget .icon {
     color: var(--orange);
