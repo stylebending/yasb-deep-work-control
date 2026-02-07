@@ -48,7 +48,7 @@ widgets:
       callbacks:
         on_left: "toggle_media_menu"
         on_middle: "toggle_play_pause"
-        on_right: "toggle_label"
+        on_right: "open_media_source"
       max_field_size:
         label: 16
         label_alt: 16
@@ -221,8 +221,8 @@ widgets:
         cloudyNight: "\ue311"
         rainyDay: "\ue308"
         rainyNight: "\ue333"
-        snowyIcyDay: "\ue30a"
-        snowyIcyNight: "\ue335"
+        snowyDay: "\ue30a"
+        snowyNight: "\ue335"
         blizzardDay: "\udb83\udf36"
         blizzardNight: "\udb83\udf36"
         foggyDay: "\ue303"
@@ -259,28 +259,28 @@ widgets:
       update_interval: 5000
       time_remaining_natural: False
       hide_unsupported: True
-    charging_options:
-      icon_format: "{charging_icon}"
-      blink_charging_icon: true
-      blink_interval: 500
-    status_thresholds:
-      critical: 10
-      low: 25
-      medium: 75
-      high: 95
-      full: 100
-    status_icons:
-      icon_charging: "\uf0e7"
-      icon_critical: "\uf244"
-      icon_low: "\uf243"
-      icon_medium: "\uf242"
-      icon_high: "\uf241"
-      icon_full: "\uf240"
-    label_shadow:
-      enabled: true
-      color: "black"
-      radius: 3
-      offset: [1, 1]
+      charging_options:
+        icon_format: "{charging_icon}"
+        blink_charging_icon: true
+        blink_interval: 500
+      status_thresholds:
+        critical: 10
+        low: 25
+        medium: 75
+        high: 95
+        full: 100
+      status_icons:
+        icon_charging: "\uf0e7"
+        icon_critical: "\uf244"
+        icon_low: "\uf243"
+        icon_medium: "\uf242"
+        icon_high: "\uf241"
+        icon_full: "\uf240"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [1, 1]
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
